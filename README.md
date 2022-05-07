@@ -11,3 +11,4 @@ A penetration test picks out the backdoors, misconfigurations, and other vulnera
 What is network PT?
 Network VAPT is the assessment procedure that is conducted by safety experts on the user's network for identifying possible vulnerabilities that the attackers might exploit.
 
+![Network-penetration-testing](https://user-images.githubusercontent.com/95676591/167249962-6efcb76f-eb62-4186-ae12-f2360b683cd4.png)
