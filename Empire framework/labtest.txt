@@ -1,3 +1,7 @@
+This lab in created by ghanimah.com (The world best cyber security learning platform).
+
+IMPORTANT: This tool is used in order to find vulnerbility of network and its necessary to take first permission in written from your customer. 
+
 
 Empire is a post-exploitation framework used for the management of compromised victim hosts. Empire offers a range of command and control modules allowing command execution and data exfiltration capabilities. Empire's HTTP-based stagers initiate C2 connections to the attacking host via HTTP requests.
 
