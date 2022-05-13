@@ -1,0 +1,59 @@
+
+This lab is created by ghanimah.com (The world best cyber security online platform).
+
+
+BloodHound is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.
+
+SharpHound is the official data collector for BloodHound. It is written in C# and uses native Windows API functions and LDAP namespace functions to 
+collect data from domain controllers and domain-joined Windows systems.
+
+BloodHound is a single page Javascript web application, built on top of Linkurious, compiled with Electron, with a Neo4j database fed by a C# data 
+collector.
+
+BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory or Azure environment. Attackers 
+can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible to quickly identify. Defenders can use 
+BloodHound to identify and eliminate those same attack paths. Both blue and red teams can use BloodHound to easily gain a deeper understanding of 
+privilege relationships in an Active Directory or Azure environment.
+
+
+BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. As of version 4.0, 
+BloodHound now also supports Azure. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible 
+to quickly identify.
+
+
+
+Installation guidance and its procedure of bloodhound how its work.
+
+commmands
+
+- sudo apt-get install bloodhound 
+- sudo apt-get install bloodhound 
+
+- sudo neo4j  
+- sudo neo4j start
+- sudo blookdhound
+
+Instruction
+open new window where you put all options as default and change password only. 
+
+Instruction
+Download sharpHound.exe in your system from 
+source website: https://github.com/BloodHoundAD/SharpHound/releases/tag/v1.0.3
+
+command
+-sudo nmap -p 22,3389 targetIP
+-sudo scp sharpHound.exe admin@targetip:
+
+Instruction
+give username & password
+
+
+Instruction
+Directory of C:\program Files\home\admin> dir
+
+Important
+visible shardpHound.exe file in located. 
+
+
+
+Jamal H. Shah 
