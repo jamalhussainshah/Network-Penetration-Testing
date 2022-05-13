@@ -31,7 +31,7 @@ commmands
 
 - sudo neo4j  
 - sudo neo4j start
-- sudo blookdhound
+- sudo bloodhound
 
 Instruction
 open new window where you put all options as default and change password only. 
