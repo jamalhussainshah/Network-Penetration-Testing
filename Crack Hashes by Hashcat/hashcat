@@ -1,4 +1,6 @@
+This lab in created by ghanimah for education purpose (ethical hackers course)
 
+IMPORTANT: This tool is used in order to find vulnerbility of network and its necessary to take first permission in written from your customer. 
 
 
 Hashcat with Password cracking 
@@ -14,7 +16,7 @@ hashcat -a 0 -m 1000 /home/greekcard/Desktop/hash.txt /home/greekcard/Desktop/wo
                      
                      
                      
-                     
+Jamal H.Shah                     
                        
             
             
