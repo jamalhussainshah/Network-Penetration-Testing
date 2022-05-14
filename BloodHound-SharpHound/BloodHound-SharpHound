@@ -5,6 +5,8 @@ experience in ethical hacking.
 IMPORTANT: It is neecssary to take permission in written letter before use of hydra in order to find vulnerbility. 
 
 
+# BloodHound & SharpHound
+
 BloodHound is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.
 
 SharpHound is the official data collector for BloodHound. It is written in C# and uses native Windows API functions and LDAP namespace functions to 
@@ -23,9 +25,11 @@ BloodHound uses graph theory to reveal the hidden and often unintended relations
 BloodHound now also supports Azure. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible 
 to quickly identify.
 
+BloodHound – Sniffing Out the Path Through Windows Domains
 
+Simple pocedure of bloodhound in order to analyzing Gathered Data With BloodHound 
 
-Installation guidance and its procedure of bloodhound how its work.
+# stage 1
 
 commmands
 
@@ -37,19 +41,24 @@ commmands
 - sudo bloodhound
 
 Instruction
-open new window where you put all options as default and change password only. 
+open BloodHound login page where you put all options as default and will change password only. 
 
 Instruction
 Download sharpHound.exe in your system from 
 source website: https://github.com/BloodHoundAD/SharpHound/releases/tag/v1.0.3
 
+
+
+
+# stage 2
+
+Overview Ip Port Open/Close
 command
 -sudo nmap -p 22,3389 targetIP
+
+
+Adapot the pather where this SharHound file is located and run below command then give user name and password.
 -sudo scp sharpHound.exe admin@targetip:
-
-Instruction
-give username & password
-
 
 Instruction
 Directory of C:\program Files\home\admin> dir
@@ -57,6 +66,25 @@ Directory of C:\program Files\home\admin> dir
 Important
 visible shardpHound.exe file in located. 
 
+
+
+
+
+# stage 3 
+
+-login to target ip through Remote Desktop login
+-donwload SharpHound.exe file --- open window terminal locate the path where file is exist and then run  sharpHound.exe 
+it will automatically execute it and it will generate zip file in the same location where sharpHound.exe is located.
+- Now copy this zip file and transfer to your system for Analyzing Gathered Data With BloodHound interface via login.
+
+
+
+
+Together with its Neo4j DB and SharpHound collector, BloodHound is a powerful tool for assessing Active Directory environments. 
+The complex intricate relations between AD objects are easily visualized and analyzed with a Red Team mindset in the pre-built queries. 
+An Offensive Operation aiming at conquering an Active Directory Domain is well served with such a great tool to show the way. 
+Whenever the pre-built interface starts to feel like a harness, you can switch to direct queries in the Neo4j DB to find the data and 
+relations you are looking for. 
 
 
 Jamal H. Shah 
