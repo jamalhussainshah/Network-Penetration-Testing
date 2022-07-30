@@ -1,3 +1,5 @@
+This lab is created only for educational purpose in order to gain expertise in ethical hacking.
+
 What is the MOSINT
 
 MOSINT is an OSINT Tool for emails. It helps you gather information about the target email.
@@ -28,3 +30,6 @@ pip3 install -r requirements.txt
 * Procedure of installation is given below in picture and rest of pictures of is attached within this folder of github.
 
 ![Screenshot_2022-07-22_14_54_37](https://user-images.githubusercontent.com/95676591/181935051-0ef78046-110f-4b09-8932-def3bb7dd86c.png)
+
+
+
