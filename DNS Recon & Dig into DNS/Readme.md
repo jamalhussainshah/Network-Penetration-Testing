@@ -6,11 +6,28 @@ DNSRecon is a Python script that provides the ability to perform: Check all NS R
 
 ### What is DNSRecon used for?
 
-DNSRecon can perform a variety of functions ranging from security assessments to basic network troubleshooting by allowing users to: Check DNS server cache records for A, AAAA and CNAME records given a list of host records in a text file
+DNSRecon can perform a variety of functions ranging from security assessments to basic network troubleshooting by allowing users to: Check DNS server cache records for A, AAAA and CNAME records given a list of host records in a text file.
+
+some important commands for DNS Recon and dig into DNS.
+
+                              host ip
+
+                              nslookup 
+                              set type=ns
+                              website
+
+                              dig website -t ns +short
+                              dig website AAAA
+                              dig website CNAME
+
+                              for ip in 'website' ; do nmap -Pn $ip; done
 
 ### Dig
 
 To find more information, we can use the dig tool. Dig stands for domain information groper, and it does just that.  A typical dig command will have some of the following:
+
+
+                              
 
 dig [@server] [-b address] [-c class] [-f filename] [-k filename] [-m] [-p port#] [-q name] [-t type] [-x addr] [-y [hmac:]name:key] [-4] [-6] [name] [type] [class] [queryopt...]
 
@@ -61,6 +78,7 @@ A zone transfer is a DNS transaction typically used for easily replicating DNS d
           dig axfr @nsztm1.digi.ninja zonetransfer.me
 
           dnsrecon -d zonetransfer.me -a
+                       
           
           
 Another tool, and a quick way to test for zone transfers is DNSenum. The command would be dnsenum zonetransfer.me. DNSenum also enumerates records making it a good "one stop shop" tool for DNS investigations.
