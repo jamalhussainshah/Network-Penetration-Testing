@@ -5,7 +5,7 @@
 
 
 
-## All procedure of installation of flanscan is shown in snapshot during installation and also given one case study in order find vulnerability.
+## All procedure of installation of flanscan is shown in snapshot  and also given one case study in order find vulnerability.
 
 Flan Scan is a lightweight network vulnerability scanner. With Flan Scan you can easily find open ports on your network, identify services and their version, and get a list of relevant CVEs affecting your network.
 
