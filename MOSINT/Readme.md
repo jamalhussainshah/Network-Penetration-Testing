@@ -31,5 +31,8 @@ pip3 install -r requirements.txt
 
 ![Screenshot_2022-07-22_14_54_37](https://user-images.githubusercontent.com/95676591/181935051-0ef78046-110f-4b09-8932-def3bb7dd86c.png)
 
+Update on 9th March 2023 by Jamal Hussain shah (Vulnerability Verficiation Specialist at SINGTRADE.NET)
+
+There is an open-source software called Mosint available on GitHub for information gathering. However, there seems to be an issue with the instructions provided by GitHub as they are not working. My recommendation is to use Mosint manually instead. Mosint operates on three websites and can automate information gathering tasks when installed on a Linux system.
 
 
